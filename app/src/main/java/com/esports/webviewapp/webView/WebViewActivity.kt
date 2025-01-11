@@ -40,7 +40,7 @@ class WebViewActivity : AppCompatActivity() {
         }
 
         binding.refreshIv.setOnClickListener {
-            Toast.makeText(this, "Refreshing...", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Reloading...", Toast.LENGTH_SHORT).show()
             binding.webView.reload()
         }
 
