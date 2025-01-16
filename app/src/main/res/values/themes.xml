@@ -4,6 +4,9 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
+    <style name="Theme.WebViewApp.MainActivity" parent="Base.Theme.WebViewApp">
+        <item name="android:statusBarColor">#098C80</item> <!-- Status bar background -->
+        <item name="android:windowLightStatusBar">true</item> <!-- Dark text -->
+    </style>
     <style name="Theme.WebViewApp" parent="Base.Theme.WebViewApp" />
 </resources>
